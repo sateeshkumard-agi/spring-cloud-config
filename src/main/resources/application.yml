@@ -1,0 +1,9 @@
+server:
+  port: 7071
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sateeshkumard-agi/spring-cloud-server-example.git
+          default-label: main
